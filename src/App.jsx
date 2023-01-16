@@ -88,7 +88,7 @@ function App() {
         <div className='form-group'>
           <label htmlFor=''>Estado Civil</label>
           <select name="maritalStatus"  value={data.maritalStatus} onChange={handleChange}>
-            <option value=''>- selecione...</option>
+            <option value=''>- Selecione...</option>
             <option value='solteiro'>Solteiro</option>
             <option value='casado'>Casado</option>
             <option value='divorciado'>Divorciado</option>
@@ -122,7 +122,7 @@ function App() {
         </button>
       </main>
       <div className="detalheFinal">
-        <p>@ 2022 by <a href="https://www.linkedin.com/in/matheus-matos-1a523221b/">Matheus Matos</a></p>
+        <p>@ 2023 by <a href="https://www.linkedin.com/in/matheus-matos-1a523221b/">Matheus Matos</a></p>
       </div>
     </div>
   );
